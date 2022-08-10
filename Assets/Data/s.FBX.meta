@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 9d0cf73068148704ead41d19cca15b0f
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black objects_ fenders, moorings
+    second: {fileID: 2100000, guid: 0d28e484ae8914448ae441f77192a4c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flare base_white_mast_beacon_stairs
+    second: {fileID: 2100000, guid: d6afc8bc72e8913459dd3259ce94fab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flare_base_red_mast
+    second: {fileID: 2100000, guid: b5f576405fbcdcf43801ceda60f542ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flare_dark gray_objects
+    second: {fileID: 2100000, guid: f3ec092c36421034d94a287aa9a67ab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flare_fire
+    second: {fileID: 2100000, guid: 55a72dcc804ecf7449d5022b359a1361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flare_gray_objects
+    second: {fileID: 2100000, guid: 09ef0755e0991a241a1c2a415faabc50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flare_top
+    second: {fileID: 2100000, guid: b3439a98e48b50642ad8741b0815ed0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flare_tubes
+    second: {fileID: 2100000, guid: 5b5c7c0f980d8684883bfdb49eeaa787, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gray objects_plant, auxiliary buildings_road2
+    second: {fileID: 2100000, guid: 7b824e76796c0814988fb840e75d73da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lighting masts_light
+    second: {fileID: 2100000, guid: 4316fa09cf85ff24aa725845196d0450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lloading_arm_body1
+    second: {fileID: 2100000, guid: 6a8640f82e845da47969d389fb036ba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loading arm_body3
+    second: {fileID: 2100000, guid: d4c02fd46bd0831458f493fd946a28ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loading_arm_body2_tubes
+    second: {fileID: 2100000, guid: 70a021aee0a9cf548adc3fcdb33e5a4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loading_arm_light
+    second: {fileID: 2100000, guid: 619ab7961b4fda540867e0b7925c3cc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: location
+    second: {fileID: 2100000, guid: f5f6a72e6e1ba4247b7510fc453e77e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: location2
+    second: {fileID: 2100000, guid: efdb024c3bcff274685c8f5d9fdf20c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pier_blue box
+    second: {fileID: 2100000, guid: 22c7d27816bc50b41ae6d6434c255a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pier_piles
+    second: {fileID: 2100000, guid: 4b272c5ea28146045af83195efcedbcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe
+    second: {fileID: 2100000, guid: 6751a412673b38b44ac8e179608937b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant_base_body_road1
+    second: {fileID: 2100000, guid: 4b137496a0475ce489f03478e240645e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant_base_top
+    second: {fileID: 2100000, guid: 2d2c35893518d3746a7480bcdff20ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant_main building, auxiliary buildings
+    second: {fileID: 2100000, guid: 6327f6b07032b3d4c9b1418b7f6c1ea4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant_windows_plant, CIO,compressor station
+    second: {fileID: 2100000, guid: b05727adc59e49246a322760ed032114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_black objects_screw
+    second: {fileID: 2100000, guid: 02c192ebf6dca1e45850dd18a1a41a95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_body_2
+    second: {fileID: 2100000, guid: d729f435573117d4490ff375d3bfb176, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_fire fighting boxes_no smoking
+    second: {fileID: 2100000, guid: 11b0e2a9bf74d264c95b357fe6725125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_gray objects_liera_cover decks
+    second: {fileID: 2100000, guid: eadd268c83ec607459e04a61b3e6aa0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_liera
+    second: {fileID: 2100000, guid: bb96e36d94f7e07438b2696adca1e8d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_rescue bot
+    second: {fileID: 2100000, guid: f4f21b095c0513c499c464de7dd0eb02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_storage
+    second: {fileID: 2100000, guid: 4479b7a0ab6b09a43a7dc3128183bb82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_tube
+    second: {fileID: 2100000, guid: 4b9db0d37f9e39e4593f8b07dd701a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_white objects
+    second: {fileID: 2100000, guid: 2404ebedd5f77b34a9ad34df1e46ae5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_windows
+    second: {fileID: 2100000, guid: d5e5efb9604dc7644a0abb85e9623e46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ship_yellow objects
+    second: {fileID: 2100000, guid: 276e1ee35b913e341967c5d18c0beea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tancks_danger zone
+    second: {fileID: 2100000, guid: 10f61571fd0706148bb7f1f129cfef8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tank_body _ gas, oil_moorings_base_pier
+    second: {fileID: 2100000, guid: dec0ac6632cf8844ba24f69783c6856f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tubes_tanks, plant, overpass, lanterns
+    second: {fileID: 2100000, guid: 1cdb48d9f98b2074e8bb422fddaa971f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_1
+    second: {fileID: 2100000, guid: ec7f6a7cd0fba8942956293cf186abfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_2
+    second: {fileID: 2100000, guid: 506e922afa73f654ab570703c09b6680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_objects_tanks, plant, aux. buld, pier, fence
+    second: {fileID: 2100000, guid: 463d6cec6c0bedd488eee7416abf2b08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_tank_crane_pier_tubes
+    second: {fileID: 2100000, guid: 3e016ef1c0b41d24f9cda32e00e81348, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
