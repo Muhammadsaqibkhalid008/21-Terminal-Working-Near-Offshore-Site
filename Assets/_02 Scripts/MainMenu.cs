@@ -16,6 +16,7 @@ public class MainMenu : MonoBehaviour
     public GameObject FallingObj;
     public GameObject DamageEquipment;
     public GameObject OffShoreSpill;
+    public GameObject ShipMooringOperationPanel;
 
     void Start()
     {
@@ -147,7 +148,28 @@ public class MainMenu : MonoBehaviour
         ScenarioPanel02.SetActive(true);
         OffShoreSpill.SetActive(false);
     }
-
+    public void ShipMooringOperationFn()
+    {
+        MainPanel.SetActive(false);
+        ShipMooringOperationPanel.SetActive(true);
+    }
+    public void ShipMooringOperationBackFn()
+    {
+        MainPanel.SetActive(true);
+        ShipMooringOperationPanel.SetActive(false);
+    }
+    public void RopeHasACertifiedCheckList()
+    {
+        LoadingFn();
+        Invoke("Scene09Load", 2f);
+        ShipMooringOperationPanel.SetActive(false);
+    }
+    public void RopeHasNotACertifiedCheckList()
+    {
+        LoadingFn();
+        Invoke("Scene10Load", 2f);
+        ShipMooringOperationPanel.SetActive(false);
+    }
     public void LoadingFn()
     {
         LoadingPanel.SetActive(true);
@@ -183,6 +205,14 @@ public class MainMenu : MonoBehaviour
     public void Scene08Load()
     {
         SceneManager.LoadScene(8);
+    }
+    public void Scene09Load()
+    {
+        SceneManager.LoadScene(9);
+    }
+    public void Scene10Load()
+    {
+        SceneManager.LoadScene(10);
     }
     public void Exit()
     {
