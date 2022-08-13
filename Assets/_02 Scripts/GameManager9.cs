@@ -10,7 +10,7 @@ public class GameManager9 : MonoBehaviour
     public GameObject HideImage;
     public GameObject TypesofRopesPanel,CompletePanel;
     public GameObject[] Workers;
-    public GameObject Ship,truck,rope;
+    public GameObject Ship,truck,rope,Blast;
     int counter = 0;
 
     void Start()
@@ -47,6 +47,8 @@ public class GameManager9 : MonoBehaviour
         yield return new WaitForSeconds(4f);
         truck.GetComponent<Animator>().enabled = true;
         rope.GetComponent<Animator>().enabled = true;
+        yield return new WaitForSeconds(1.5f);
+        Blast.SetActive(true);
         Workers[0].GetComponent<Animator>().enabled = false;
         Workers[1].GetComponent<Animator>().enabled = false;
         yield return new WaitForSeconds(2f);
@@ -68,11 +70,12 @@ public class GameManager9 : MonoBehaviour
         yield return new WaitForSeconds(4f);
         truck.GetComponent<Animator>().enabled = true;
         rope.GetComponent<Animator>().enabled = true;
+        yield return new WaitForSeconds(1.5f);
+        Blast.SetActive(true);
         Workers[0].GetComponent<Animator>().enabled = false;
         Workers[1].GetComponent<Animator>().enabled = false;
         yield return new WaitForSeconds(2f);
         CompletePanel.SetActive(true);
-
 
         StopAllCoroutines();
 

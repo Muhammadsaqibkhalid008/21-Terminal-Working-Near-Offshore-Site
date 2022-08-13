@@ -16,7 +16,13 @@ public class MainMenu : MonoBehaviour
     public GameObject FallingObj;
     public GameObject DamageEquipment;
     public GameObject OffShoreSpill;
+    [Header("Scenario 03")]
     public GameObject ShipMooringOperationPanel;
+    public GameObject ShipMooringDamageEquipmentPanel;
+    public GameObject InjuryPanel;
+    public GameObject FallingInWaterPanel;
+    public GameObject PartingRopesPanel;
+    public GameObject HitByFlyingObjects;
 
     void Start()
     {
@@ -148,6 +154,9 @@ public class MainMenu : MonoBehaviour
         ScenarioPanel02.SetActive(true);
         OffShoreSpill.SetActive(false);
     }
+    /// <summary>
+    /// Scenario 03
+    /// </summary>
     public void ShipMooringOperationFn()
     {
         MainPanel.SetActive(false);
@@ -158,61 +167,102 @@ public class MainMenu : MonoBehaviour
         MainPanel.SetActive(true);
         ShipMooringOperationPanel.SetActive(false);
     }
+    public void ShipMooringDamageEquipmentFn()
+    {
+        ShipMooringOperationPanel.SetActive(false);
+        ShipMooringDamageEquipmentPanel.SetActive(true);
+    }
+    public void ShipMooringDamageEquipmentBackFn()
+    {
+        ShipMooringOperationPanel.SetActive(true);
+        ShipMooringDamageEquipmentPanel.SetActive(false);
+    }
+    public void ShipMooringInjuryFn()
+    {
+        ShipMooringOperationPanel.SetActive(false);
+        LoadingFn();
+        Invoke("Scene11Load", 2f);
+    }
+    public void ShipMooringFallingInWaterFn()
+    {
+        ShipMooringOperationPanel.SetActive(false);
+        LoadingFn();
+        Invoke("Scene12Load", 2f);
+    }
+    public void ShipMooringPartingRopesFn()
+    {
+        ShipMooringOperationPanel.SetActive(false);
+        LoadingFn();
+        Invoke("Scene13Load", 2f);
+    }
+
     public void RopeHasACertifiedCheckList()
     {
         LoadingFn();
         Invoke("Scene09Load", 2f);
-        ShipMooringOperationPanel.SetActive(false);
+        ShipMooringDamageEquipmentPanel.SetActive(false);
     }
     public void RopeHasNotACertifiedCheckList()
     {
         LoadingFn();
         Invoke("Scene10Load", 2f);
-        ShipMooringOperationPanel.SetActive(false);
+        ShipMooringDamageEquipmentPanel.SetActive(false);
     }
-    public void LoadingFn()
+     void LoadingFn()
     {
         LoadingPanel.SetActive(true);
     }
-    public void Scene01Load()
+     void Scene01Load()
     {
         SceneManager.LoadScene(1);
     }
-    public void Scene02Load()
+     void Scene02Load()
     {
         SceneManager.LoadScene(2);
     }
-    public void Scene03Load()
+     void Scene03Load()
     {
         SceneManager.LoadScene(3);
     }
-    public void Scene04Load()
+     void Scene04Load()
     {
         SceneManager.LoadScene(4);
     }
-    public void Scene05Load()
+     void Scene05Load()
     {
         SceneManager.LoadScene(5);
     }
-    public void Scene06Load()
+     void Scene06Load()
     {
         SceneManager.LoadScene(6);
     }
-    public void Scene07Load()
+     void Scene07Load()
     {
         SceneManager.LoadScene(7);
     }
-    public void Scene08Load()
+     void Scene08Load()
     {
         SceneManager.LoadScene(8);
     }
-    public void Scene09Load()
+     void Scene09Load()
     {
         SceneManager.LoadScene(9);
     }
-    public void Scene10Load()
+     void Scene10Load()
     {
         SceneManager.LoadScene(10);
+    }
+     void Scene11Load()
+    {
+        SceneManager.LoadScene(11);
+    }
+    void Scene12Load()
+    {
+        SceneManager.LoadScene(12);
+    }
+    void Scene13Load()
+    {
+        SceneManager.LoadScene(13);
     }
     public void Exit()
     {
